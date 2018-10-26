@@ -1,0 +1,14 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextArea?>
+
+<GridPane prefWidth="854" prefHeight="480" fx:controller="com.Lireoy.Controller" xmlns:fx="http://javafx.com/fxml"
+          xmlns="http://javafx.com/javafx/8.0.172-ea" alignment="center" hgap="10" vgap="10">
+    <TextField fx:id="downloadLinkField" layoutY="10" GridPane.columnIndex="0" GridPane.rowIndex="0" maxHeight="40.0"
+               prefWidth="800" minHeight="30.0" minWidth="400.0"/>
+    <Button text="Download" GridPane.columnIndex="0" GridPane.rowIndex="1" prefWidth="800"
+            onAction="#handleButtonClick"/>
+    <TextArea text="Basszameg" fx:id="consoleTextArea" GridPane.columnIndex="0" GridPane.rowIndex="2" prefWidth="800"
+              prefHeight="360"/>
+</GridPane>
